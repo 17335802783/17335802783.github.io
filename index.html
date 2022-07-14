@@ -97,17 +97,6 @@
 <p>在完成<strong>个人博客搭建</strong>之后，让我们开始学习博客使用指南吧！</p>
 </blockquote>
 <p><strong>1.生成新的blog</strong></p>
-<ul>
-<li>进入cmd命令行，进入myblog文件根目录。</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new blogname  <span class="comment">// blogname为生成的博客文件名称</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p>默认生成的文件保存在source&#x2F;_post当中，可以显示在网页。</p>
-</li>
-<li><p>回车后，会出现文件的地址，此时一个新的博客就已经创建完成。</p>
-</li>
-</ul>
 <p>​	<strong>1.1 可选择的创建路径和布局</strong> </p>
 <table>
 <thead>
@@ -135,7 +124,19 @@
 </tbody></table>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] blogname <span class="comment">// [layout]为布局参数</span></span><br></pre></td></tr></table></figure>
 
-<p><em><strong>draft下的文件均为草稿，不会显示在网页</strong></em></p>
+<p><strong>1.2 新建</strong></p>
+<ul>
+<li>进入cmd命令行，进入myblog文件根目录，输入以下命令。</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new blogname  <span class="comment">// blogname为生成的博客文件名称</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>默认生成的文件保存在source&#x2F;_post当中，可以显示在网页。</p>
+</li>
+<li><p>回车后，会出现文件的地址，此时一个新的博客就已经创建完成。</p>
+</li>
+</ul>
+<p>​	<em><strong>draft下的文件均为草稿，不会显示在网页</strong></em></p>
 <ul>
 <li><p>​	<strong>draft文件转化为post文件显示可以使用以下命令</strong></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish draftname <span class="comment">//draftname为草稿名称</span></span><br></pre></td></tr></table></figure></li>
